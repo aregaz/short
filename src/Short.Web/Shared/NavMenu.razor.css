@@ -51,6 +51,13 @@
 }
 
 @media (min-width: 641px) {
+    .navbar-brand {
+        width: 100%;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-right: 0;
+    }
+    
     .navbar-toggler {
         display: none;
     }
