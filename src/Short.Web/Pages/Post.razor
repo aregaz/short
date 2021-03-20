@@ -3,10 +3,6 @@
 
 <h2>Post @PostName</h2>
 
-<MudPaper Height="auto" Width="100%">
-    <MudContainer MaxWidth="MaxWidth.False">
-        <MudPaper Height="auto" Width="100%" Square="true" Class="mud-theme-primary">
-            @((MarkupString)PostContent)
-        </MudPaper>
-    </MudContainer>
+<MudPaper class="pa-4">
+    @((MarkupString) PostContent)
 </MudPaper>
