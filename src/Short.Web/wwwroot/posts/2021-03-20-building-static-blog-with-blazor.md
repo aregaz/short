@@ -1,9 +1,9 @@
-﻿# Static website on WebAssembly Blazor
-WebAssembly Blazor is an alternative to Javascript frameworks like Angular, React or Vue.js - but instead of using Javascript for your UI it uses C#.
+﻿<!--
+Title: Static website on WebAssembly Blazor
+Author: Illia Ratkevych
+Created: 2021-03-21T14:12:36.145+02:00
+-->
 
-<MudPopover Open="@_isOpen" Class="px-4 pt-4">
-    <div class="d-flex flex-column">
-        <MudText>Content of the popover can be anything.</MudText>
-        <MudButton OnClick="@ToggleOpen" Class="ml-auto mr-n3 mb-1" Color="Color.Error">Close</MudButton>
-    </div>
-</MudPopover>
+Blazor is an alternative to Javascript frameworks like Angular, React or Vue.js - but instead of using Javascript for your UI it uses C#.
+
+This blog is build using Client-side Blazor which is an amazing implementation of a new feature of moderns browsers - WebAssembly. It allows browsers to run compiled code in the browser (with some limitations, of course, - to make sure that the website is not trying to format your hard drive).
