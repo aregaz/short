@@ -16,4 +16,8 @@
       <Folder Include="Components" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\Short.Parser\Short.Parser.csproj" />
+    </ItemGroup>
+
 </Project>
