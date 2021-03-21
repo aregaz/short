@@ -1,4 +1,12 @@
 ﻿@page "/"
 @inherits ShortPageDefault
 
+<div class="mb-4 text-primary" style="font-size: 1.4em">Recent posts:</div>
+<MudCard Class="pa-4 mb-lg-4">
+    <MudLink Href="/post/2021-03-20-building-static-blog-with-blazor">Static website on WebAssembly Blazor</MudLink>
+    <div>
+        <span>2021-03-21 14:12</span>
+    </div>
+</MudCard>
+
 <p>Environment: @HostEnvironment.Environment</p>
