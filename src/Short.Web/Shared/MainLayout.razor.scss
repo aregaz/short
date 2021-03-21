@@ -1,4 +1,4 @@
-.page {
+﻿.page {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -15,14 +15,21 @@
   height: 3.5rem;
   display: flex;
   align-items: center;
+
+  .logo-brand {
+    font-size: 1.8rem;
+
+    a {
+      &:hover {
+        font-size: 2rem;
+        color: #0c5460;
+        text-decoration: none;
+      }
+    }
+  }
 }
-.top-row .logo-brand {
-  font-size: 1.8rem;
-}
-.top-row .logo-brand a:hover {
-  font-size: 2rem;
-  color: #0c5460;
-  text-decoration: none;
+
+@media (max-width: 640.98px) {
 }
 
 @media (min-width: 641px) {
@@ -38,4 +45,3 @@
   }
 }
 
-/*# sourceMappingURL=MainLayout.razor.css.map */

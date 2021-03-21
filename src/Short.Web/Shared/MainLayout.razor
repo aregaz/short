@@ -1,21 +1,16 @@
 ﻿@inherits LayoutComponentBase
+@inject IConfiguration Configuration
 
-<div class="page">
-    <div class="sidebar">
-        <NavMenu/>
-    </div>
-
-    <div class="main">
-        <div class="top-row px-4 auth">
-            @* <LoginDisplay/> *@
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
-
-        <div class="content px-4">
-            @Body
-        </div>
+<div class="top-row">
+    <div class="logo-brand">
+        <a href="" class="teal-text darken-4">@Configuration["website:LogoText"]</a>
     </div>
 </div>
+<MudContainer MaxWidth="MaxWidth.Large">
+    <div class="page">
+        @Body
+    </div>
+</MudContainer>
 
 <MudThemeProvider/>
 <MudDialogProvider/>
